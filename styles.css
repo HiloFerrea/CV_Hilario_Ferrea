@@ -1,0 +1,30 @@
+/* ===== LINKS (LOGOS) ===== */
+.contact-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.contact-links img {
+  height: 18px;
+  width: auto;
+  object-fit: contain;
+}
+
+.contact-links img:hover {
+  transform: scale(1.1);
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+
+  #quarto-margin-sidebar {
+    display: none !important;
+  }
+
+  .contact-links img {
+    height: 16px;
+  }
+}
