@@ -27,4 +27,12 @@
   .contact-links img {
     height: 16px;
   }
+
+/* ===== TEXTO ===== */
+p, li {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+}
+  
 }
